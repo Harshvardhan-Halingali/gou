@@ -1,0 +1,33 @@
+# Web Framework & API Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+requests>=2.31.0
+
+# Image Forensic Processing & Computer Vision
+pillow>=10.2.0
+imagehash>=4.3.1
+numpy>=1.26.0
+opencv-python-headless>=4.9.0.80
+exifread>=3.0.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# Deep Learning & Vision Transformers
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+transformers>=4.38.0
+safetensors>=0.4.0
+open_clip_torch>=2.24.0
+huggingface_hub>=0.20.0
+timm>=0.9.0
+einops>=0.7.0
+
+# Audio & Video Forensic Processing
+librosa>=0.10.1
+soundfile>=0.12.1
+pandas>=2.2.0
+tqdm>=4.66.0

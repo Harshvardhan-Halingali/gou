@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Data & Runtime artifacts (Do not commit user uploads, reports, or SQLite DBs)
+data/uploads/*
+data/uploads/**/*
+!data/uploads/.gitkeep
+!data/uploads/audio/.gitkeep
+!data/uploads/video/.gitkeep
+
+data/reports/*
+data/reports/**/*
+!data/reports/.gitkeep
+
+data/models/*
+data/models/**/*
+!data/models/.gitkeep
+!data/models/audio/.gitkeep
+!data/models/face/.gitkeep
+!data/models/video/.gitkeep
+!data/models/video/demamba/.gitkeep
+!data/models/video/gend/.gitkeep
+
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite*
+data/watermark_crop.png
+
+# Cache and logs
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
